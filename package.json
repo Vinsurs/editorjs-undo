@@ -1,5 +1,5 @@
 {
-  "name": "editorjs-undo",
+  "name": "@vinsurs/editorjs-undo",
   "version": "1.0.0",
   "description": "editorjs undo plugin",
   "main": "dist/index.js",
@@ -11,21 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduard-kirillov/editorjs-undo.git"
+    "url": "git+https://github.com/vinsurs/editorjs-undo.git"
   },
   "files": [
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/eduard-kirillov/editorjs-undo/issues"
+    "url": "https://github.com/vinsurs/editorjs-undo/issues"
   },
   "keywords": [
     "editorjs",
     "undo",
     "redo"
   ],
-  "homepage": "https://github.com/eduard-kirillov/editorjs-undo#readme",
-  "author": "",
+  "homepage": "https://github.com/vinsurs/editorjs-undo#readme",
+  "author": "vinsurs <2407232109@qq.com>",
   "license": "MIT",
   "peerDependencies": {
     "@editorjs/editorjs": "^2.29.0"
@@ -37,5 +37,8 @@
     "rollup-plugin-clean2": "^1.0.0",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
